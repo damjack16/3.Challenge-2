@@ -47,14 +47,16 @@
         <!-- ABOUT US -->
         <section class="about-us" id="about-us">
             <img src="img/header/raspberries.png" alt="raspberries">
-            <h1>About Us</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corrupti deleniti impedit animi
-                possimus voluptatem provident? Debitis temporibus minima ex? Voluptas earum iusto sit explicabo
-                mollitia atque obcaecati, dicta deserunt.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique neque itaque reiciendis delectus
-                at
-                fuga ad nemo. Veniam, tempora. Iste, laboriosam odio quibusdam cumque voluptatibus at. Dolores quia
-                mollitia dolore?</p>
+            <div class="as-text-container">
+                <h1>About Us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corrupti deleniti impedit animi
+                    possimus voluptatem provident? Debitis temporibus minima ex? Voluptas earum iusto sit explicabo
+                    mollitia atque obcaecati, dicta deserunt.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique neque itaque reiciendis delectus
+                    at
+                    fuga ad nemo. Veniam, tempora. Iste, laboriosam odio quibusdam cumque voluptatibus at. Dolores quia
+                    mollitia dolore?</p>
+            </div>
         </section>
 
         <!-- OUR SERVICES -->
@@ -87,12 +89,16 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi omnis, possimus obcaecati quaerat
                 similique accusantium praesentium, dolores veritatis eum atque distinctio recusandae. Ex officia
                 consectetur quam quisquam quidem voluptatibus praesentium.</p>
-            <img src="img/gallery/gallery_one.png" alt="">
-            <img src="img/gallery/gallery_two.png" alt="">
-            <img src="img/gallery/gallery_three.png" alt="">
-            <img src="img/gallery/gallery_four.png" alt="">
-            <img src="img/gallery/gallery_five.png" alt="">
-            <button>View more</button>
+            <div class="gallery-images">
+                <img src="img/gallery/gallery_one.png" alt="">
+                <img src="img/gallery/gallery_two.png" alt="">
+                <img src="img/gallery/gallery_three.png" alt="">
+                <img src="img/gallery/gallery_four.png" alt="">
+                <img src="img/gallery/gallery_five.png" alt="">
+                <img src="img/gallery/gallery_six.jpg">
+                <img src="img/gallery/gallery_seven.jpg">
+            </div>
+            <button class="view-btn">View more</button>
         </section>
 
         <!-- SUBSCRIBE -->
@@ -142,22 +148,24 @@
         <section class="contact" id="contact">
             <h1>Contact</h1>
             <p>For new project, ideas, business or anything you'd like to discuss, contact with me!?</p>
-            <div class="contact-inputs">
-                <form action="#">
-                    <input type="text" name="your_name" id="" placeholder="Your name...">
-                    <input type="email" name="your_email" id="" placeholder="Your email...">
-                    <input type="tel" name="your_phone_number" id="" placeholder="Your phone number...">
-                    <textarea name="your_message" id="" cols="30" rows="10" cols="10" placeholder="Your message..."></textarea>
-                </form>
-            </div>
-
             <div class="contact-data">
-                <span>Address</span>
-                <p>123 City name. Street, City, Country</p>
-                <span>Email</span>
-                <p>cahee@domain.com</p>
-                <span>Phone</span>
-                <p>+012 345 6789</p>
+                <div class="contact-inputs">
+                    <form action="#">
+                        <input type="text" name="your_name" id="" placeholder="Your name...">
+                        <input type="email" name="your_email" id="" placeholder="Your email...">
+                        <input type="tel" name="your_phone_number" id="" placeholder="Your phone number...">
+                        <textarea name="your_message" id="" cols="30" rows="10" cols="10" placeholder="Your message..."></textarea>
+                    </form>
+                </div>
+
+                <div class="contact-address">
+                    <span>Address</span>
+                    <p>123 City name. Street, City, Country</p>
+                    <span>Email</span>
+                    <p>cahee@domain.com</p>
+                    <span>Phone</span>
+                    <p>+012 345 6789</p>
+                </div>
             </div>
         </section>
 
