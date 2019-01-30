@@ -30,3 +30,36 @@ btnView.addEventListener('click', () => {
         imgTwo.style.display = "none"
     }
 })
+
+// SMOOTH SCROLL
+scrollTo = (element) => {
+    window.scroll({
+        behavior: 'smooth',
+        left: 0,
+        top: element.offsetTop,
+    })
+}
+
+document.querySelector(".menu-home").addEventListener('click', () => {
+    scrollTo(document.getElementById("menu"));
+})
+
+document.querySelector(".menu-about").addEventListener('click', () => {
+    scrollTo(document.getElementById("about-us"));
+})
+
+document.querySelector(".menu-services").addEventListener('click', () => {
+    scrollTo(document.getElementById("our-services"));
+})
+
+document.querySelector(".menu-gallery").addEventListener('click', () => {
+    scrollTo(document.getElementById("gallery"));
+})
+
+document.querySelector(".menu-blog").addEventListener('click', () => {
+    scrollTo(document.getElementById("blog"));
+})
+
+document.querySelector(".menu-contact").addEventListener('click', () => {
+    scrollTo(document.getElementById("contact"));
+})

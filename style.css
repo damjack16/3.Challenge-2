@@ -8,6 +8,7 @@
     html {
         font-size: 10px;
         font-family: 'Sarabun', sans-serif;
+        --menu-height: 10vh;
     }
 
     ul {
@@ -23,6 +24,8 @@
     button {
         cursor: pointer;
     }
+
+
 
     @media (min-width:320px) {
 
