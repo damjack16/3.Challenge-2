@@ -20,14 +20,15 @@ btnView.addEventListener('click', () => {
         btnView.textContent = "SHOW LESS";
         btnView.classList.add("show-btn");
         btnView.classList.remove("view-btn");
-        imgOne.style.display = "inline";
-        imgTwo.style.display = "inline";
+        imgOne.style.animation = "first-animation .8s linear forwards"
+        imgTwo.style.animation = "first-animation .8s linear forwards"
+
     } else if (btnView.classList.contains("show-btn")) {
         btnView.textContent = "VIEW MORE";
         btnView.classList.add("view-btn");
-        btnView.classList.remove("show-btn")
-        imgOne.style.display = "none"
-        imgTwo.style.display = "none"
+        btnView.classList.remove("show-btn");
+        imgOne.style.animation = "second-animation .8s linear"
+        imgTwo.style.animation = "second-animation .8s linear"
     }
 })
 
@@ -36,7 +37,7 @@ scrollTo = (element) => {
     window.scroll({
         behavior: 'smooth',
         left: 0,
-        top: element.offsetTop,
+        top: element.offsetTop - 90,
     })
 }
 
